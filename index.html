@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>🧑‍💻 Portafolio midudev - Ingeniero de Software con 15 años de experiencia</title>
+
+    <meta name="description" content="Portafolio de midudev, 15 años de experiencia como ingeniero de software" />
+
+    <!-- OPEN GRAPH - SEO -->
+    <meta property="og:title" content="Portafolio de un ingeniero de software" />
+    <meta property="og:description" content="Portafolio de midudev, 15 años de experiencia como ingeniero de software" />
+    <meta property="og:image" content="/images/yo.jpg" />
+    <meta property="og:image:alt" content="Una fotografía de Miguel Ángel Durán" />
+
+    <link rel="alternate" href="" />
+
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#09f" />
+
+    <link rel="icon" type="image/jpg" href="/images/yo.jpg" />
+
+    <style>
+      body {
+        background: rgb(135, 221, 255, 0.9);
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1>Portafolio de @midudev 👨‍💻</h1>
+
+      <!--       <iframe
+      style="width: 100%; aspect-ratio: 16/9;"
+        src="https://www.youtube.com/embed/Cbj5_qgDnmE?si=gnNyXwj7kHzpOJxL"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe> -->
+
+      <dialog id="dialog">
+        <h1>¿Sabías que puedes abrir una modal así?</h1>
+        <p>¡Y es totalmente nativo!</p>
+        <button id="hide">Cerrar modal</button>
+      </dialog>
+
+      <button id="show">Ver más información</button>
+
+      <script>
+        window.show.addEventListener('click', () => {
+          window.dialog.showModal()
+        })
+
+        window.hide.addEventListener('click', () => {
+          window.dialog.close()
+        })
+      </script>
+
+      <nav>
+        <a href="#experiencia">Experiencia</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="https:twitch.tv/midudev" target="_blank" rel="noreferrer">Twitch</a>
+      </nav>
+    </header>
+
+    <!--     <audio controls src="https://download.samplelib.com/mp3/sample-15s.mp3"></audio>
+
+    <video autoplay loop muted src="https://filesamples.com/samples/video/mp4/sample_960x400_ocean_with_audio.mp4"></video> -->
+
+    <main>
+      <p>+15 año de experiencia como <strong>Ingeniero de Software</strong>. Creador y divulgador de programación.</p>
+
+      <h2 id="expreciencia">Expriencia</h2>
+
+      <ul>
+        <li class="list-item">Adevinta - 2022</li>
+        <li class="list-item">Hubii - 2020</li>
+        <li class="list-item">Nacenvia - 2015</li>
+      </ul>
+
+      <a download href="/images/yo.jpg">
+        <img
+          id="photo-image"
+          width="200"
+          height="200"
+          title="Foto de midudev"
+          alt="Una fotografía de Miguel Ángel Durán sonriendo y mirando a cámara con las mano cruzadas"
+          src="/images/yo.jpg"
+        />
+      </a>
+
+      <h2 id="proyectos">Proyecto realizados</h2>
+
+      <aside>
+        <header>
+          <h3>Mis tecnologías <span>favoritas</span></h3>
+        </header>
+        <ol type="1" reversed start="10">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li value="5">JavaScript</li>
+          <li>Node.js</li>
+        </ol>
+      </aside>
+
+      <button>Haz clic aqui</button>
+
+      <section>
+        <article>
+          <header>
+            <h4>La página de Tesla</h4>
+            <img style="width: 100%; aspect-ratio: 207/103" loading="lazy" src="/images/tesla.jpg" alt="Captura de la página web de Tesla" />
+          </header>
+          <p>Elon Musk me llamó e hice en una tarde esta página desde cero</p>
+          <footer>
+            <small>Tecnologías utilizadas: React, Node.js, MongoDB</small>
+          </footer>
+        </article>
+
+        <article>
+          <header>
+            <h4>Sitio Web Coperativo</h4>
+          </header>
+          <p>Desarrollo de un sitio web coperativo con un interfaz amigable y moderna.</p>
+          <footer>
+            <small>Tecnologías utilizadas: React, Node.js, MongoDB</small>
+          </footer>
+        </article>
+
+        <article>
+          <header>
+            <h4>Sitio Web Coperativo</h4>
+          </header>
+          <p>Desarrollo de un sitio web coperativo con un interfaz amigable y moderna.</p>
+          <footer>
+            <small>Tecnologías utilizadas: React, Node.js, MongoDB</small>
+          </footer>
+        </article>
+
+        <article>
+          <header>
+            <h4>Sitio Web Coperativo</h4>
+          </header>
+          <p>Desarrollo de un sitio web coperativo con un interfaz amigable y moderna.</p>
+          <footer>
+            <small>Tecnologías utilizadas: React, Node.js, MongoDB</small>
+          </footer>
+        </article>
+      </section>
+
+      <section>
+        <h2>Preguntas frecuentes</h2>
+
+        <details open>
+          <summary>¿Qué estudios tienes?</summary>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo dolorem, illum, odit quibusdam corrupti delectus, a temporibus provident
+            repellendus officiis quidem! Deleniti, hic nisi. Assumenda itaque maiores pariatur ab error.
+          </p>
+        </details>
+
+        <details>
+          <summary>¿Cuáles son tus hobbies?</summary>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi, consequuntur veritatis illo praesentium laudantium earum? Facilis modi aut
+            maiores, officiis, distinctio ut hic tempore cumque ducimus earum corporis harum accusantium.
+          </p>
+        </details>
+
+        <details>
+          <summary>¿Cuál es tu lenguaje favorito?</summary>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis, corrupti at a ab eius id voluptate eos maxime sequi atque, quam odio
+            nostrum temporibus cum obcaecati consequatur aliquam voluptatibus libero.
+          </p>
+        </details>
+      </section>
+
+      <section>
+        <h2>Formulario de contacto</h2>
+
+        <form method="post" action="/">
+          <fieldset>
+            <legend>Información personal</legend>
+
+            <div>
+              <label
+                >Nombre:
+                <input type="text" name="name" placeholder="Miguel Ángek Durán" required />
+              </label>
+            </div>
+
+            <label
+              >Email:
+              <input type="email" name="email" placeholder="midudev@gmail.com" required />
+            </label>
+          </fieldset>
+
+          <fieldset>
+            <legend>Información adicional</legend>
+            <div>
+              <label
+                >Teléfono:
+                <input type="tel" name="phone" placeholder="Miguel Ángek Durán" required pattern="[0-9]{9}" />
+              </label>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>Otros</legend>
+
+            <div>
+              <label for="why">¿Por qué quieres contactar?</label>
+              <select name="why" id="why">
+                <option value="1">Trabajo</option>
+                <option value="2">Duda</option>
+                <option value="3">Más Información</option>
+              </select>
+            </div>
+
+            <div>
+              <label for="terns">¿Aceptas los términos?</label>
+              <input type="checkbox" id="terms" name="terms" required />
+            </div>
+
+            <div>
+              <datalist id="languages">
+                <option value="JavaScript"></option>
+                <option value="Python"></option>
+                <option value="Java"></option>
+                <option value="C#"></option>
+              </datalist>
+              <label>
+                ¿Con qué lenguae quieres que te ayude?
+                <input list="languages" name="languages" />
+              </label>
+            </div>
+          </fieldset>
+
+          <input type="submit" value="Enviar contacto" />
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      Copyright © 2023 - El portafolio más bello del mundo
+
+      <a href="mailto:miduga@gmail.com">Envíame un correo</a>
+      <a href="tel:+346854845445">Llamar por teléfono</a>
+      <a href="https://wa.me/346854845445?text=Hola%20midudev">Enviar mensaje por WhatsApp</a>
+    </footer>
+  </body>
+</html>
